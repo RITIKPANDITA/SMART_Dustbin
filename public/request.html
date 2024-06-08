@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Dustbin Dashboard</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/Dustbin.png" />
+    <link rel="stylesheet" href="request.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Smart Dustbin Dashboard</h1>
+        </div>
+        <div class="request-button">
+            <button id="request-collection">Request Collection</button>
+        </div>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Request for Waste Collection</h2>
+            <label for="collection-date">Enter collection date:</label>
+            <input type="date" id="collection-date">
+            <button id="submit-date">Submit</button>
+        </div>
+    </div>
+    
+    <script src="requestscript.js"></script>
+</body>
+</html>
